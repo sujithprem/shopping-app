@@ -1,0 +1,127 @@
+.new-collections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.new-collections h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.new-collections hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.collections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+
+@media (max-width:1050px){
+    .new-collections{
+        margin-top: -30px;
+        width: 136.8%;
+        height: 130vh;
+    }
+    .new-collections h1 {
+        margin-top: 80px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .new-collections hr{
+        width: 330px;
+        height: 6px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 70px;
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width:900px){
+    .new-collections{
+        margin-top: -30px;
+        width: 136.9%;
+        height: 130vh;
+    }
+    .new-collections h1 {
+        margin-top: 80px;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .new-collections hr{
+        width: 330px;
+        height: 6px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 45px;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+}
+
+
+@media (max-width:750px){
+    .new-collections{
+        margin-top: -30px;
+        width: 165.3%;
+        height: 120vh;
+    }
+    .new-collections h1 {
+        margin-top: 80px;
+        font-size: 43px;
+        font-weight: 600;
+    }
+    .new-collections hr{
+        width: 280px;
+        height: 6px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+}
+
+
+
+@media (max-width:412px){
+    .new-collections{
+        margin-top: -50px;
+        width: 180%;
+        height: 280vh;
+    }
+    .new-collections h1 {
+        margin-top: 50px;
+        margin-left: 300px;
+        font-size: 43px;
+        font-weight: 600;
+    }
+    .new-collections hr{
+        width: 280px;
+        margin-left: 300px;
+        height: 6px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 100px;
+        column-gap: 150px;
+        margin-top: 130px;
+        margin-left: 320px;
+    }
+}

@@ -1,0 +1,262 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    width: 97.5%;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    background-color: #8efcfc;
+    border-radius: 0px 0px 150px 150px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+    color: rgb(12, 145, 145);
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+     width: 80%;
+     height: 3px;
+     border-radius: 10px;
+     background: #f50303;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login-cart button{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 150px 150px 0px 150px;
+    color: #515151;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background: #f3f3f3;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: rgb(8, 244, 248);
+    color: rgb(12, 11, 11);
+}
+
+@media(max-width:1050px){
+    .navbar{
+        padding: none;
+        width: 134%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-logo img{
+        width: 90px;
+        margin-top: -10px;
+    }
+    .nav-logo{
+        height: 65px;
+        margin-top: 10px;
+    }
+    .nav-menu{
+       gap: 15px;
+       margin-right: 10px;
+    }
+    .nav-menu li{
+        font-size: 25px;
+        width: 150px;
+        gap: 20px;
+    }
+    .nav-login-cart button{
+        font-size: 20px;
+        width: 120px;
+        height: 40px;
+    }
+    .nav-cart-count img{
+        width: 50px;
+    }
+    .nav-cart-count{
+        width: 60px;
+        height: 25px;
+        font-size: 20px;
+        margin-left: -60px;
+        margin-top: -47px;
+    }
+    .nav-login-cart{
+       width: 180px;
+       gap: 55px;
+    }
+}
+
+
+@media(max-width:900px){
+    .navbar{
+        padding: none;
+        width: 134%;
+        height: 80px;
+    }
+    .nav-logo img{
+        width: 90px;
+        margin-top: -10px;
+    }
+    .nav-logo{
+        height: 65px;
+        margin-top: 10px;
+    }
+    .nav-menu{
+       gap: 15px;
+       margin-right: 10px;
+    }
+    .nav-menu li{
+        font-size: 23px;
+        width: 150px;
+        gap: 20px;
+    }
+    .nav-login-cart button{
+        font-size: 18px;
+        width: 110px;
+        height: 40px;
+    }
+    .nav-cart-count img{
+        width: 50px;
+    }
+    .nav-cart-count{
+        width: 60px;
+        height: 25px;
+        font-size: 20px;
+        margin-left: -50px;
+        margin-top: -49px;
+    }
+    .nav-login-cart{
+       width: 180px;
+       gap: 35px;
+    }
+    .nav-menu hr{
+        width: 60%;
+        height: 3px;
+   }
+}
+
+
+@media(max-width:750px){
+    .navbar{
+        padding: none;
+        width: 161%;
+        height: 80px;
+    }
+    .nav-logo img{
+        width: 90px;
+        margin-top: -10px;
+    }
+    .nav-logo{
+        height: 65px;
+        margin-top: 10px;
+    }
+    .nav-menu{
+       gap: 10px;
+       margin-right: 10px;
+    }
+    .nav-menu li{
+        font-size: 19px;
+        width: 130px;
+        gap: 15px;
+    }
+    .nav-login-cart button{
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+    }
+    .nav-cart-count img{
+        width: 40px;
+    }
+    .nav-cart-count{
+        width: 60px;
+        height: 25px;
+        font-size: 20px;
+        margin-left: -50px;
+        margin-top: -49px;
+    }
+    .nav-login-cart{
+       width: 180px;
+       gap: 40px;
+    }
+    .nav-menu hr{
+        width: 40%;
+        height: 3px;
+   }
+}
+
+
+
+@media(max-width:412px){
+    .navbar{
+        padding: none;
+        width: 261.8%;
+        height: 60px;
+    }
+    .nav-logo img{
+        width: 50px;
+        margin-top: -10px;
+    }
+    .nav-logo{
+        height: 48px;
+        margin-top: 10px;
+    }
+    .nav-menu{
+       gap: 5px;
+       margin-right: 10px;
+    }
+    .nav-menu li{
+        font-size: 15px;
+        width: 130px;
+        gap: 15px;
+    }
+    .nav-login-cart button{
+        font-size: 12px;
+        width: 60px;
+        height: 30px;
+    }
+    .nav-cart-count img{
+        width: 20px;
+    }
+    .nav-cart-count{
+        width: 40px;
+        height: 25px;
+        font-size: 20px;
+        margin-left: -50px;
+        margin-top: -49px;
+    }
+    .nav-login-cart{
+       width: 180px;
+       gap: 50px;
+    }
+    .nav-menu hr{
+         width: 20%;
+         height: 3px;
+    }
+}
